@@ -1,0 +1,1042 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+/*-------------------- Css phan menu va slide chay-------------------*/
+/*-------------Xu ly menu-----------*/
+.slidechay{
+	background: #000 url('../images/HinhLuoiCham/pattarn.png');
+	opacity: 0.8;
+	z-index: 1000;
+}
+.custom-navbar-default{
+	background-color: transparent;
+	border-color: transparent;
+}
+.custom-collapse{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.custom-navbar-right{
+	margin-right: 0px;
+}
+/*-----Css phan menu tren cung----*/
+.hotlinetren {
+	color: #fff;
+}
+.diachi {
+	font-size: 16px;
+}
+.diachi a{
+	color: #fff;
+	text-decoration: none;
+}
+.icon-button {
+	font-size: 16px;
+}
+.icon-button i {
+	width: 40px;
+	height: 39px;
+	background: transparent;
+	color: #fff;
+	text-align: center;
+	line-height: 2;
+	margin: 0 -2.5px;
+}
+.icon-button i:hover{
+	background: #fff;
+	color: #ce4b36;
+	transition: all 0.4s;
+	cursor: pointer;
+}
+.nut-book {
+	padding: 14px 30px;
+	background: #ca3d26;
+	font-size: 12px;
+	letter-spacing: 2px;
+	color: #fff;
+	font-weight: 700;
+}
+.nut-book:hover{
+	background: #fff;
+	color: #ca3d26;
+	transition: all 0.4s;
+	cursor: pointer;
+}
+.duongvientrang{
+	border: 1px solid #fff;
+}
+.custom-hr{
+	margin-bottom: 0px;
+	margin-top: 17px;
+}
+/*---------- Chinh chu tren menu------------*/
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color: #ca3d26;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background:transparent;
+	color: #ca3d26;
+	border-top: 2px solid #ca3d26;
+}
+/*----Xu ly Slide----*/
+.baoquatnoidung {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 30%;
+	z-index: 1;
+}
+
+#menuCarousel{
+	opacity: 0.4;
+}
+/*---------------------------------------------Css phan Story---------------------------------*/
+.cauchuyenvechungtoi p {
+	font-size: 16px;
+	color: #4a4d4f;
+}
+.tieudecauchuyen{
+	font-family: 'Dancing Script', cursive;
+	color: #cf4f3a;
+	font-size: 80px;
+	font-weight: 600;
+	padding-bottom: 74px;
+}
+.chuto {
+	font-size: 80px;
+	font-weight: 900;
+	line-height: 1;
+	float: left;
+}
+.chuky{
+	background: url('../images/HinhBaner/home_three_about_bg.png') no-repeat scroll center bottom;
+	background-size: contain;
+	padding: 100px 0px;
+	margin: auto;
+}
+/*----------------------------------------Css phan Special Package---------------------------*/
+.goidacbiet{
+	background: url('../images/HinhBaner/promotions_area_bg_1.jpg') no-repeat;
+	background-size: cover;
+	margin: auto;
+}
+.margin-bottom-luoihinh {
+	margin-bottom: 50px;
+}
+
+.luoihinh{
+	background: #000  url('../images/HinhLuoiCham/pattarn.png');
+	opacity: 0.8;
+	height: auto;
+	width: 100%;
+}
+.hinhanhgoi img{
+	width: 70%;
+	height: auto;
+	max-height: 450px;
+}
+/*--*/
+.noidunggoi{
+	background-color: white;
+	position: block;
+}
+.tieudegoidacbiet {
+	font-family: 'Dancing Script', cursive;
+	color: #cf4f3a;
+	font-size: 62px;
+	font-weight: 600;
+}
+.goi-wrapper .tieude-1 {
+	color: #1a1a1a;
+	font-size: 28px;
+	font-weight: 600;
+}
+.nd-goi{
+	font-size: 16px;
+}
+.nut-order {
+	width: 155px;
+	height: 41px;
+	border-radius: 0;
+	color: #ca3d26;
+	font-weight: 600;
+	border: 1px solid #ca3d26;
+}
+.nut-order:hover {
+	color: white;
+	border: 1px solid #ca3d26;
+	background: #ca3d26;
+	transition: all 0.4s;
+}
+.goi-wrapper .tieude-1{
+
+}
+/*-- Css luoi hinh---*/
+.noidungtieude {
+	z-index: 1000;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+.carousel {
+	position: relative;
+	z-index: 1000;
+}
+/*--- css nut chuyen noi dung-------*/
+.nut-tron {
+	padding-top: 50px;
+	text-align: center;
+}
+.nut-tron-style {
+	width: 15px;
+	height: 15px;
+
+	background: #fff;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 6px;
+	cursor: pointer;
+}
+
+.slide-active {
+	background: #000;
+}
+/*---------------------------------------Css phan Today's Menu -----------------------------------*/
+.tieude-menuhangngay {
+    font-family: 'Dancing Script', cursive;
+    color: #cf4f3a;
+    font-size: 62px;
+    font-weight: 600;
+    margin-top: 96px;
+}
+.hinh-monan img {
+    border-radius: 100%;
+    border: 10px solid #dddddd;
+}
+.nd-mota-monan h4 {
+    font-weight: 600;
+}
+.nd-mota-monan b {
+    color: #ca3d26;
+}
+.nd-mota-monan .ten-mon span {
+    display: inline-block;
+    width: 30%;
+}
+.duongvienxam{
+    margin-top: 38px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.noidunghangngay-2{
+    margin-top: 31px;
+}
+
+/*-------- Css nut Tab -------*/
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 59px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    border: 1px solid;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    transition: 0.3s;
+    background-color: #fff;
+    margin: 0px 2px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ca3d26;
+  color: white;
+}
+
+/* Create an active/current tablink class */
+.tab .active {
+  background-color: #ca3d26;
+  color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  padding: 6px 12px;
+  border-top: none;
+  margin-top: 49px;
+}
+.tab-an{
+    display: none;
+}
+/*-------------------------------------------Css phan Book a table now ---------------------------------*/
+.datbang{
+	background: url('../images/HinhBaner/promotions_area_bg_2.jpg') scroll;
+	background-size: cover;
+	margin: auto;
+	background-repeat: no-repeat;
+	margin-top: 98px; 
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+.luoihinhdatbang{
+	background: #000 url('../images/HinhLuoiCham/pattarn.png');
+	opacity: 0.8;
+	z-index: 1000;
+}
+.tieudedatbang {
+	padding-top: 150px;
+	font-size: 55px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: #fff;
+	font-weight: 600;
+}
+.nut-book2 {
+	border-radius: 0;
+	width: 203px;
+	height: 46px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ca3d26;
+	margin-bottom: 144px;
+	margin-top: 46px;
+}
+.nut-book2:hover{
+	transition: all 0.4s;
+	color: white;
+	background-color: #ca3d26;
+	border: 0;
+}
+/*----------------------------------------------- Css phan Our Chefs --------------------------------------*/
+.daubep{
+	margin-top: 97px;
+}
+.slidedaubep{
+	margin-top: 60px;
+}
+.caption h3{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: 600;
+}
+.thumbnail {
+	position: relative;
+
+}
+.thumbnail:hover .ico-thumbnail{
+	opacity: 1;
+}
+
+.ico-thumbnail {
+	background-color: #0000007d;
+	width: 100%;
+	height: 244px;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	transition: all 0.4s ease 0s;
+}
+
+.ico-thumbnail li {
+	font-size: 22px;
+	padding-bottom: 6px;
+	padding-top: 11px;
+	list-style-type: none;
+	margin-right: -56%;
+}
+
+.ico-thumbnail li i{
+	color: #fff;
+}
+.nopadding{
+	padding: 0;
+	border: 0;
+}
+.tieudedaubep {
+	font-family: 'Dancing Script', cursive;
+	font-size: 62px;
+	font-weight: 600;
+	color: #cf4f3a;
+}
+
+/*------ slide keo tha-------*/
+.ico-thumbnail {
+	width: 100%;
+	height: 262px;
+	background: #00000091;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all 0.4s;
+}
+.item {
+	position: relative;
+}
+.ico-thumbnail li {
+	list-style-type: none;
+	font-size: 20px;
+	margin: 18px 0px;
+}
+.ico-thumbnail i {
+	margin-right: -116px;
+	color: #fff;
+}
+.item:hover .ico-thumbnail{
+	opacity: 1;
+	transition: all 0.4s;
+}
+.Slidedaubep{
+	margin-top: 60px;
+	margin-bottom: 99px;
+}
+/*------------------------------------------------- Css phan Laster News ----------------------------*/
+.tintuc{
+  background: url('../images/HinhBaner/promotions_area_bg_3.jpg') scroll;
+  background-size: cover;
+  margin: auto;
+  background-repeat: no-repeat;
+}
+.luoihinhtintuc{
+  background: #000 url('../images/HinhLuoiCham/pattarn.png');
+  opacity: 0.8;
+  z-index: 1000;
+}
+.tieudetintuc {
+    font-family: 'Dancing Script', cursive;
+    color: #cf4f3a;
+    font-size: 62px;
+    font-weight: 600;
+}
+.testimonials{
+  background-color: transparent;
+  position: relative;
+  padding-top: 80px;
+
+}
+.testimonials:after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 30%;
+  background-color: transparent;
+}
+.owl-carousel:hover  button{
+  opacity: 1;
+}
+#customers-latest .item {
+  text-align: center;
+  /*padding: 20px;*/
+  margin-bottom:80px;
+  background: #fff;
+
+}
+
+.owl-carousel .owl-nav [class*='owl-'] {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.owl-carousel .owl-nav [class*='owl-'].disabled:hover {
+  background-color: #D6D6D6;
+}
+.owl-carousel {
+  position: relative;
+}
+.owl-carousel .owl-next,
+.owl-carousel .owl-prev {
+  width: 40px;
+  height: 40px;
+  line-height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 33%;
+  font-size: 25px;
+  color: #fff;
+  border: 1px solid #ddd;
+  background: #000;
+  text-align: center;
+  opacity: 0;
+}
+.owl-carousel .owl-prev {
+  left: 0px;
+}
+.owl-carousel .owl-next {
+  right: 0px;
+}
+
+/*----Css nut button pre and next*/
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+  background: #ca3d26 !important;
+  border-radius: 0;
+  
+}
+.owl-next i{
+  color: #fff;
+  font-size: 20px;
+}
+.owl-prev i{
+  color: #fff;
+  font-size: 20px;
+}
+
+/*-----------------*/
+.tieudechitiet {
+  font-size: 25px;
+}
+/**/
+/*----CSS tin tuc---*/
+.chitiet .tieudechitiet{
+  color: #000;
+  font-size: 25px;
+  font-family: "PT Sans Narrow";
+  padding: 25px 0px;
+}
+.duongviencam{
+  border: 1px solid #ca3d26;
+  width: 20%;
+  display: inline-block;
+}
+.shadow-effect p{
+  font-size: 15px;
+  padding-top: 35px;
+}
+.comment a{
+  text-decoration: none;
+  color: #000;
+  margin-left: 10px;
+
+}
+.comment{
+  padding-top: 16px;
+}
+.chitiet{
+  padding: 35px 25px;
+}
+/*------------------------------------------------- Css phan Gallery ----------------------------*/
+.bosuutap{
+	padding-top: 97px;
+}
+.hinhanhthucdon img{
+	width: 100%;
+
+}
+.hinhanhthucdon {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.tieudesuutap {
+	font-family: 'Dancing Script', cursive;
+	font-size: 62px;
+	font-weight: 600;
+	color: #cf4f3a;
+}
+.hinhanh_bosuutap{
+	margin-top: 61px;
+	margin-bottom: 101px;
+}
+/*---*/
+.col-xs-5th-1, .col-xs-5th-2, .col-xs-5th-3, .col-xs-5th-4{
+	float: left
+}
+
+.col-xs-5th-5{
+	float: left
+	width: 100%
+}
+
+
+.col-xs-5th-4{
+	width: 80%
+}
+
+.col-xs-5th-3{
+	width: 60%
+}
+
+.col-xs-5th-2{
+	width: 40%
+}
+
+.col-xs-5th-1{
+	width: 20%
+}
+
+.col-xs-5th-pull-5{
+	right: 100%
+}
+
+.col-xs-5th-pull-4{
+	right: 80%
+}
+
+.col-xs-5th-pull-3{
+	right: 60%
+}
+
+.col-xs-5th-pull-2{
+	right: 40%
+}
+
+.col-xs-5th-pull-1{
+	right: 20%
+}
+
+.col-xs-5th-pull-0{
+	right: auto
+}
+
+.col-xs-5th-push-5{
+	left: 100%
+}
+
+.col-xs-5th-push-4{
+	left: 80%
+}
+
+.col-xs-5th-push-3{
+	left: 60%
+}
+
+.col-xs-5th-push-2{
+	left: 40%
+}
+
+.col-xs-5th-push-1{
+	left: 20%
+}
+
+.col-xs-5th-push-0{
+	left: auto
+}
+
+.col-xs-5th-offset-5{
+	margin-left: 100%
+}
+
+.col-xs-5th-offset-4{
+	margin-left: 80%
+}
+
+.col-xs-5th-offset-3{
+	margin-left: 60%
+}
+
+.col-xs-5th-offset-2{
+	margin-left: 40%
+}
+
+.col-xs-5th-offset-1{
+	margin-left: 20%
+}
+
+.col-xs-5th-offset-0{
+	margin-left: 0%
+}
+
+@media (min-width: 768px){
+	.col-sm-5th-1, .col-sm-5th-2, .col-sm-5th-3, .col-sm-5th-4{
+		float: left;
+	}
+
+	.col-sm-5th-5{
+		float: left
+		width: 100%
+	}
+
+	.col-sm-5th-4{
+		width: 80%;
+	}
+
+	.col-sm-5th-3{
+		width: 60%;
+	}
+
+	.col-sm-5th-2{
+		width: 40%;
+	}
+
+	.col-sm-5th-1{
+		width: 20%;
+	}
+
+	.col-sm-5th-pull-5{
+		right: 100%;
+	}
+
+	.col-sm-5th-pull-4{
+		right: 80%;
+	}
+
+	.col-sm-5th-pull-3{
+		right: 60%;
+	}
+
+	.col-sm-5th-pull-2{
+		right: 40%;
+	}
+
+	.col-sm-5th-pull-1{
+		right: 20%;
+	}
+
+	.col-sm-5th-pull-0{
+		right: auto;
+	}
+
+	.col-sm-5th-push-5{
+		left: 100%;
+	}
+
+	.col-sm-5th-push-4{
+		left: 80%;
+	}
+
+	.col-sm-5th-push-3{
+		left: 60%;
+	}
+
+	.col-sm-5th-push-2{
+		left: 40%;
+	}
+
+	.col-sm-5th-push-1{
+		left: 20%;
+	}
+
+	.col-sm-5th-push-0{
+		left: auto;
+	}
+
+	.col-sm-5th-offset-5{
+		margin-left: 100%;
+	}
+
+	.col-sm-5th-offset-4{
+		margin-left: 80%;
+	}
+
+	.col-sm-5th-offset-3{
+		margin-left: 60%;
+	}
+
+	.col-sm-5th-offset-2{
+		margin-left: 40%;
+	}
+
+	.col-sm-5th-offset-1{
+		margin-left: 20%;
+	}
+
+	.col-sm-5th-offset-0{
+		margin-left: 0%;
+	}
+
+}
+
+
+@media (min-width: 992px){}
+.col-md-5th-1, .col-md-5th-2, .col-md-5th-3, .col-md-5th-4{
+	float: left;
+}
+
+.col-md-5th-5{
+	float: left;
+	width: 100%;
+}
+
+.col-md-5th-4{
+	width: 80%;
+}
+
+.col-md-5th-3{
+	width: 60%;
+}
+
+.col-md-5th-2{
+	width: 40%;
+}
+
+.col-md-5th-1{
+	width: 20%;
+}
+
+.col-md-5th-pull-5{
+	right: 100%;
+}
+
+.col-md-5th-pull-4{
+	right: 80%;
+}
+
+.col-md-5th-pull-3{
+	right: 60%;
+}
+
+.col-md-5th-pull-2{
+	right: 40%;
+}
+
+.col-md-5th-pull-1{
+	right: 20%;
+}
+
+.col-md-5th-pull-0{
+	right: auto;
+}
+
+.col-md-5th-push-5{
+	left: 100%;
+}
+
+.col-md-5th-push-4{
+	left: 80%;
+}
+
+.col-md-5th-push-3{
+	left: 60%;
+}
+
+.col-md-5th-push-2{
+	left: 40%;
+}
+
+.col-md-5th-push-1{
+	left: 20%;
+}
+
+.col-md-5th-push-0{
+	left: auto;
+}
+
+.col-md-5th-offset-5{
+	margin-left: 100%;
+}
+
+.col-md-5th-offset-4{
+	margin-left: 80%;
+}
+
+.col-md-5th-offset-3{
+	margin-left: 60%;
+}
+
+.col-md-5th-offset-2{
+	margin-left: 40%;
+}
+
+.col-md-5th-offset-1{
+	margin-left: 20%;
+}
+
+.col-md-5th-offset-0{
+	margin-left: 0%;
+}
+
+
+@media (min-width: 1200px){
+	.col-lg-5th-1, .col-lg-5th-2, .col-lg-5th-3, .col-lg-5th-4{
+		float: left;
+	}
+
+	.col-lg-5th-5{
+		float: left
+		width: 100%;
+	}
+
+	.col-lg-5th-4{
+		width: 80%;
+	}
+
+	.col-lg-5th-3{
+		width: 60%;
+	}
+
+	.col-lg-5th-2{
+		width: 40%;
+	}
+
+	.col-lg-5th-1{
+		width: 20%;
+	}
+
+	.col-lg-5th-pull-5{
+		right: 100%;
+	}
+
+	.col-lg-5th-pull-4{
+		right: 80%;
+	}
+
+	.col-lg-5th-pull-3{
+		right: 60%;
+	}
+
+	.col-lg-5th-pull-2{
+		right: 40%;
+	}
+
+	.col-lg-5th-pull-1{
+		right: 20%;
+	}
+
+	.col-lg-5th-pull-0{
+		right: auto;
+	}
+
+	.col-lg-5th-push-5{
+		left: 100%;
+	}
+
+	.col-lg-5th-push-4{
+		left: 80%;
+	}
+
+	.col-lg-5th-push-3{
+		left: 60%;
+	}
+
+	.col-lg-5th-push-2{
+		left: 40%;
+	}
+
+	.col-lg-5th-push-1{
+		left: 20%;
+	}
+
+	.col-lg-5th-push-0{
+		left: auto;
+	}
+
+	.col-lg-5th-offset-5{
+		margin-left: 100%;
+	}
+
+	.col-lg-5th-offset-4{
+		margin-left: 80%;
+	}
+
+	.col-lg-5th-offset-3{
+		margin-left: 60%;
+	}
+	.col-lg-5th-offset-2{
+		margin-left: 40%;
+	}
+
+	.col-lg-5th-offset-1{
+		margin-left: 20%;
+	}
+
+	.col-lg-5th-offset-0{
+		margin-left: 0%;
+	}
+
+}
+
+/*------------------------------------------ Css phan Footer ----------------------------------*/
+.logofooter {
+	margin-top: 86px;
+}
+.luoihinhlienlac{
+	background: #000 url('../images/HinhLuoiCham/pattarn.png');
+	opacity: 0.8;
+}
+.diachilienlac{
+	background: url('../images/HinhCuoiTrang/footer_bg_2.jpg') scroll center center;
+	background-size: cover;
+	margin: auto;
+	background-repeat: no-repeat;
+}
+.vien-footer{
+	border: 1px solid #000;
+	margin-top: 105px;
+	margin-bottom: 41px;
+}
+.chutrang {
+	color: #fff;
+	font-size: 16px;
+	margin-top: 55px;
+}
+.maucam {
+	color: #ca3d26;
+	font-size: 16px;
+}
+.ico-footer li {
+	display: inline-block;
+	padding-left: 20px;
+	font-size: 30px;
+}
+.ico-footer li i{
+	color: #fff;
+}
+.tacgia p {
+	color: #fff;
+	font-size: 16px;
+}
+.menucuoitrang li{
+	display: inline-block;
+	padding-left: 10px;
+}
+.menucuoitrang li a{
+	color: #ca3d26;
+}
+.tacgia{
+	margin-bottom: 50px;
+}
+/*---------------------------------Dieu chinh che do man hinh laptop, desktop ---------------*/
+@media (min-width: 768px) {
+	/*----phan Special Package -----*/
+	.goi-wrapper{
+		position: relative;
+		margin-top: 43px;
+	}
+	.noidunggoi{
+		width: 40%;
+		height: 300px;
+		background-color: white;
+		position: absolute;
+		bottom: 15%;
+		right: 0;
+		padding: 50px;
+	}
+}
+/*------------------------------Dieu chinh che do di dong----------------------------*/
+@media (max-width: 768px) {
+	/*---Phan menu--*/
+	.diachi{
+		display: none;
+	}
+	.nut-book{
+		padding: 14px 14px;
+	}
+	.custom-hr{
+		display: none;
+	}
+	/*--- Phan Special Pakage---*/
+	.goi-wrapper {
+		position: relative;
+		margin-top: 43px;
+	}
+	.hinhanhgoi img {
+		width: 100%;
+		height: auto;
+		max-height: 450px;
+	}
+	.goi-wrapper .tieude-1 {
+		color: #1a1a1a;
+		font-size: 20px;
+		font-weight: 600;
+	}
+	.noidunggoi {
+		padding: 20px;
+	}
+}
